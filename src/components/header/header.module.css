@@ -1,0 +1,60 @@
+
+.header{
+    background-color: #424242;
+    height: 100px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.212);
+    
+}
+
+.container{
+    width: 100vw;
+    max-width: 1440px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Lexend Peta";
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.buyCart{
+    font-size: 28px;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
+.itensCart{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 24px;
+    height: 24px;
+    background-color: rgb(3, 134, 248);
+
+    border-radius: 50%;
+    font-size: 15px;
+}

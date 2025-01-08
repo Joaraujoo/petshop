@@ -1,0 +1,12 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #BAB0B0;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
